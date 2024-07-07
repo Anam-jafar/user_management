@@ -196,7 +196,7 @@ CREATE TABLE users (
 - Clone the repository
 - Create the db table
 - Update the database configuration in includes/db.php:                                         
-  ```<?php
+  ```php
 $servername = "localhost";
 $username = "your_db_username";
 $password = "your_db_password";
@@ -206,8 +206,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-}
-?>
+}                                                                                 
 ```
 
 Author: Anam Ibn Jafar  
