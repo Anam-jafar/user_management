@@ -189,14 +189,16 @@ CREATE TABLE users (
     password VARCHAR(255) NOT NULL,
     role_id INT NOT NULL
 );
-```
+```                    
+                                                                                                                            
+  
 
 ### Setup
 
 - Clone the repository
 - Create the db table
 - Update the database configuration in includes/db.php:                                         
-  ```php
+```php
 $servername = "localhost";
 $username = "your_db_username";
 $password = "your_db_password";
@@ -206,9 +208,12 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-}                                                                                 
-```
+}                                                                                
+```                    
+                                          
+  
+  
 
-Author: Anam Ibn Jafar  
-Email: [anamibnjafar@gmail.com](mailto:anamibnjafar@gmail.com)
+##Author: Anam Ibn Jafar  
+##Email: [anamibnjafar@gmail.com](mailto:anamibnjafar@gmail.com)
 
