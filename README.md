@@ -2,6 +2,8 @@
 
 This is a Simple User Management System implemented in RAW PHP and REST API. It provides user authentication and management functionalities with MySQL as the database. The system supports two types of roles: Admin and User.
 
+[Watch the video tutorial here](https://youtu.be/Uz3D7cbLPVM)
+
 ## Features
 
 ### Roles and Permissions
