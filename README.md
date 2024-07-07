@@ -214,6 +214,8 @@ if ($conn->connect_error) {
   
   
 
-##Author: Anam Ibn Jafar  
-##Email: [anamibnjafar@gmail.com](mailto:anamibnjafar@gmail.com)
+Author: Anam Ibn Jafar  
+Email: [anamibnjafar@gmail.com](mailto:anamibnjafar@gmail.com)                                        
+  
+  
 
